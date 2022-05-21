@@ -1,0 +1,13 @@
+{
+  "Version": "13.7",
+  "Name": "Roblox Image Host",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://en.help.roblox.com/api/v2/uploads.json",
+  "Parameters": {
+    "filename": "?"
+  },
+  "Body": "Binary",
+  "URL": "$json:upload.attachments[0].mapped_content_url$"
+}
+
